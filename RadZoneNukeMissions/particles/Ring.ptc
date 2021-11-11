@@ -1,0 +1,283 @@
+EffectDef {
+ MinFPS 30
+ Emitors {
+  EmitorDef Ring {
+   ShapeType Box
+   ShapeSize 10 20 20
+   ConeAngle 0 0 1000
+   MaxNum 500
+   BirthRate 300
+   Offset 0 450 -6.867
+   Angles 90 -90 90
+   LocalTransform 0
+   Material "{F827A1603B03A8E5}graphics/Particles/materials/smoke/smoke_cloud_01_b_trans_RGD2_01.emat"
+   SizeMultiplier 80
+   SizeRND 10
+   RandomRotDir 0
+   RotMultiplier 50
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 0
+   Sort 0
+   Velocity 50
+   VelocityRND 0
+   VelAffect 10
+   AirResistance 0
+   AirResistanceRND 0
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Restitution 0
+   Wind 0
+   AnimFPS 60
+   RandomFrame 1
+   LifeTime 20
+   LifeTimeRND 20
+   Color {
+    0 1 0.7406 0.1392 0.0214 0.5398 0.3977 0 0.0661 0.9318 0.3693 0 0.1063 0.7841 0.1761 0 0.2055 1 0.108 0.108 0.2511 0.0114 0 0.0114 0.361 0 0 0 0.5085 0.5 0.4886 0.4602 0.5818 1 1 1 0.9803 1 1 1 1 1 1 1
+   }
+   Alpha {
+    0 0 0.22321 1 0.7247 0.98101 1 0.10759
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.66456 1 1
+   }
+   EffectTime 12
+   Repeat 0
+   ColorMast {
+    0 1 1 1 1 1 1 1
+   }
+   AlphaMast {
+    0 1 1 1
+   }
+   RotationSpeedMast {
+    0 1 1 0
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 1 1 1
+   }
+  }
+  EmitorDef Ring2 {
+   ShapeType Box
+   ShapeSize 10 20 20
+   ConeAngle 0 0 1000
+   MaxNum 500
+   BirthRate 300
+   Offset 0 550 -6.867
+   Angles 90 -90 90
+   LocalTransform 0
+   Material "{F827A1603B03A8E5}graphics/Particles/materials/smoke/smoke_cloud_01_b_trans_RGD2_01.emat"
+   SizeMultiplier 80
+   SizeRND 10
+   RandomRotDir 1
+   RotMultiplier 50
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 0
+   Sort 0
+   BillboardingType None
+   Velocity 20
+   VelocityRND 0
+   VelAffect 10
+   AirResistance 0
+   AirResistanceRND 0
+   GravityMultiply 0.01
+   GravityMultiplyRND 0
+   Restitution 0
+   Wind 0
+   AnimFPS 60
+   RandomFrame 1
+   LifeTime 20
+   LifeTimeRND 20
+   Color {
+    0 1 0.7406 0.1392 0.0214 0.5398 0.3977 0 0.0661 0.9318 0.3693 0 0.1063 0.7841 0.1761 0 0.2055 1 0.108 0.108 0.2511 0.0114 0 0.0114 0.361 0 0 0 0.5085 0.5 0.4886 0.4602 0.5818 1 1 1 0.9803 1 1 1 1 1 1 1
+   }
+   Alpha {
+    0 0 0.22321 1 0.7247 0.98101 1 0.10759
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.66456 1 1
+   }
+   EffectTime 12
+   Repeat 0
+   ColorMast {
+    0 1 1 1 1 1 1 1
+   }
+   AlphaMast {
+    0 1 1 1
+   }
+   RotationSpeedMast {
+    0 1 1 0
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 1 1 1
+   }
+  }
+  EmitorDef ring {
+   ShapeType Box
+   ShapeSize 10 20 20
+   ConeAngle 0 0 1000
+   MaxNum 450
+   BirthRate 10
+   Offset 0 370 0
+   Angles 90 -90 90
+   LocalTransform 0
+   Material "{5833DBA57E4AC426}graphics/Particles/materials/smoke/smoke_cloud_01_b_trans_M18_03.emat"
+   SizeMultiplier 100
+   SizeRND 80
+   RandomRotDir 1
+   RotMultiplier 50
+   StretchMultiplier 20
+   StreakFullUV 1
+   VelAngle 1
+   RandomAngle 1
+   Sort 1
+   BillboardingType LockedAxis
+   Velocity 20
+   VelocityRND 10
+   AirResistance 0
+   AirResistanceRND 0
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Wind 0
+   RandomFrame 1
+   LifeTime 20
+   LifeTimeRND 5
+   Color {
+    0 1 1 1 0.0214 0.7045 0.5455 0.2045 0.0679 0.8182 0.392 0 0.109 0.6875 0.3409 0 0.1582 0.0057 0 0 0.2073 0 0 0 1 0 0 0
+   }
+   Alpha {
+    0 0 0.22321 1 0.7247 0.98101 1 0.10759
+   }
+   RotationSpeed {
+    0 1 1 1
+   }
+   Size {
+    0 0.66456 1 1
+   }
+   EffectTime 5
+   Repeat 0
+   ColorMast {
+    0 1 1 1 1 1 1 1
+   }
+   AlphaMast {
+    0 1 1 1
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 1 1 1
+   }
+  }
+  EmitorDef blast2 {
+   ShapeType Box
+   ShapeSize 10 20 20
+   ConeAngle 360 180 180
+   MaxNum 450
+   BirthRate 10
+   Offset 0 0 0
+   Angles 0 0 0
+   LocalTransform 0
+   Material "{67FEB95AE2ECC2EA}graphics/Particles/materials/smoke/smoke_dust_01.emat"
+   SizeMultiplier 800
+   SizeRND 0
+   RandomRotDir 0
+   RotMultiplier 60
+   StretchMultiplier 0
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 0
+   Sort 0
+   BillboardingType Full
+   Velocity 150
+   VelocityRND 0
+   AirResistance 0
+   AirResistanceRND 0
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Wind 0
+   RandomFrame 1
+   LifeTime 15
+   LifeTimeRND 5
+   Color {
+    0 0.7278 0.538 0.1392 0.5621 0.2594 0.1462 0.0896 0.891 0.1415 0.0849 0.0283 1 0.0755 0 0
+   }
+   Alpha {
+    0 0 0.22321 1 0.7247 0.98101 1 0.10759
+   }
+   RotationSpeed {
+    0 1 1 1
+   }
+   Size {
+    0 0.66456 1 1
+   }
+   EffectTime 2
+   Repeat 1
+   ColorMast {
+    0 1 1 1 1 1 1 1
+   }
+   AlphaMast {
+    0 1 1 1
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 1 1 1
+   }
+  }
+  EmitorDef blast {
+   ShapeType Ellipse
+   ShapeSize 100 6.4 100
+   ConeAngle 360 0 360
+   MaxNum 16
+   BirthRate 6000
+   Angles -96.00002 0 -89.99999
+   LocalTransform 1
+   Material "{0357172CDE2E8B6C}RadZoneNukeMissons/particles/shockwave.emat"
+   ScaleX 1
+   ScaleY 1
+   SizeMultiplier 1000
+   RandomRotDir 1
+   StretchMultiplier 1
+   RandomAngle 0
+   Sort 0
+   Velocity 1
+   VelocityRND 0.5
+   VelAffect 1
+   AirResistance 0
+   GravityMultiply 0
+   AnimOnce 0
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 6
+   LifeTimeRND 2
+   Color {
+    0 0.5506 0.5506 0.557 1 0.5633 0.5696 0.5506
+   }
+   Alpha {
+    0 0 0.03387 0.36709 0.26562 0.05696 1 0
+   }
+   Size {
+    0 0 0.14881 0.64557 1 1
+   }
+   EffectTime 3
+   Repeat 0
+   ColorMast {
+    0 1 1 1 0.0982 0.7278 0.7342 0.7215 0.2522 1 1 1 0.4234 0.6013 0.6013 0.6013 0.4866 0.981 0.981 0.981 0.5506 0.7532 0.7532 0.7532 0.7232 0.9873 0.9873 0.9873 0.9152 0.6076 0.6076 0.6076 1 1 1 1
+   }
+  }
+ }
+}

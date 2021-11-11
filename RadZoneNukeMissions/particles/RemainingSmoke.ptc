@@ -1,0 +1,19 @@
+EffectDef {
+ MinFPS 30
+ Emitors {
+  EmitorDef chemine {
+   MaxNum 200
+   Material "{5833DBA57E4AC426}graphics/Particles/materials/smoke/smoke_cloud_01_b_trans_M18_03.emat"
+   SizeMultiplier 40
+   Velocity 10
+   Wind 1
+   LifeTime 10
+   Color {
+    0 0.2123 0.1792 0.038 0.0706 0.8491 0.2547 0.1179 0.1573 1 0.717 0 0.1957 1 0.6179 0.0236 0.2466 1 0.3019 0.0189 0.4933 0.0047 0 0 0.9062 0 0 0 1 0.3066 0.3066 0.283
+   }
+   Alpha {
+    0 1 1 0.29114
+   }
+  }
+ }
+}

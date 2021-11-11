@@ -1,0 +1,31 @@
+EffectDef {
+ MinFPS 1
+ Emitors {
+  EmitorDef chemine {
+   MaxNum 400
+   BirthRate 20
+   Material "{5833DBA57E4AC426}graphics/Particles/materials/smoke/smoke_cloud_01_b_trans_M18_03.emat"
+   SizeMultiplier 120
+   RotMultiplier 80
+   Velocity 50
+   LifeTime 6
+   Color {
+    0 1 1 1 0.0876 0.9205 0.3693 0 0.126 0.6193 0.3636 0 0.3012 1 0.4659 0 0.4129 0 0 0 0.5255 0.8239 0.2955 0 0.6488 0.8182 0.233 0 0.7444 0 0 0 0.8713 1 0.358 0 1 0.7102 0.5852 0
+   }
+   Alpha {
+    0 1 0.22321 1 0.85836 0.98101 1 0.90506
+   }
+   RotationSpeed {
+    0 1 1 0.58228
+   }
+   EffectTime 5
+   Repeat 1
+   ColorMast {
+    0 0.7468 0.5823 0.0506 1 0.2785 0.2342 0.2089
+   }
+   SizeMast {
+    0 1 0.29309 1 0.7911 1 0.99603 1 1 1
+   }
+  }
+ }
+}
